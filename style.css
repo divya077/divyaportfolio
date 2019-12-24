@@ -1,0 +1,145 @@
+#container
+{
+ background-color: darkcyan;
+    padding-bottom: 100px;
+}
+#topBox
+{
+    width: 75%;
+    background-color: goldenrod;
+    margin:auto;
+    display: flex;           /* establish flex container */
+    flex-direction: row;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;
+
+}
+#one{
+    width: 75%;
+    background-color: darkgoldenrod;
+    margin:auto;
+    color: black;
+    font-weight: bold;
+}
+#two
+{
+    width: 75%;
+    background-color: goldenrod;
+    margin:auto;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+#Three
+{
+    width: 75%;
+    background-color: goldenrod;
+    margin:auto;
+    text-align: center;
+    margin-top: 20px;
+   padding-bottom: 20px;
+
+}
+#Four
+{
+    width: 75%;
+    background-color: goldenrod;
+    margin:auto;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+}
+.introText{
+
+    margin-top: 10%;
+
+    text-align: center;
+
+}
+span{
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+
+
+.img-fluid
+{
+    width: 75%;
+}
+
+
+@media (min-width: 544px) {
+    h1 {font-size:1.5rem;} /*1rem = 16px*/
+    span{font-size:10px;}
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+    h1 {font-size:2em;} /*1rem = 16px*/
+    span{font-size:20px;}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    h1 {font-size:2.5em;} /*1rem = 16px*/
+    span{font-size:30px;}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    h1 {font-size:3em;} /*1rem = 16px*/
+    span{font-size:40px;}
+}
+.box1
+{
+    width: 50%;
+    margin:auto;
+    background-color: darkgoldenrod;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.labels {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+
+}
+.skilltext {
+    color: black;
+    font-weight: bold;
+}
+.progress {
+    height: 5px;
+
+}
+.progress-bar {
+    background: -webkit-linear-gradient(left, #33156d 0%,#f282bc 100%); /* Chrome10-25,Safari5.1-6 */
+
+}
+
+.carousel {
+    height: 300px;
+
+}
+
+.carousel-item,
+.carousel-inner,
+.carousel-inner img {
+    height: 100%;
+    width: auto;
+}
+
+.carousel-item {
+    text-align: center;
+}
+.nav.navbar-nav li a {
+    color: blue;
+}
+a:hover {
+    background-color: darkgoldenrod;
+    color: black;
+}
