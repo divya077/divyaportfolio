@@ -64,10 +64,17 @@
 
 }
 span{
-    font-family: "Times New Roman", Times, serif;
+   font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
 
 }
-
+h1
+{
+     font-family: 'Kanit', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+}
 
 
 .img-fluid
