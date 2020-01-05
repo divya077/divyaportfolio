@@ -2,6 +2,7 @@
 {
  background-color: darkcyan;
     padding-bottom: 100px;
+
 }
 #topBox
 {
@@ -12,6 +13,7 @@
     flex-direction: row;  /* make main axis vertical */
     justify-content: center; /* center items vertically, in this case */
     align-items: center;
+    color: white;
 
 }
 #one{
@@ -20,6 +22,7 @@
     margin:auto;
     color: black;
     font-weight: bold;
+    color: white;
 }
 #two
 {
@@ -29,6 +32,7 @@
     text-align: center;
     margin-top: 20px;
     padding-bottom: 20px;
+    color: white;
 }
 #Three
 {
@@ -38,6 +42,7 @@
     text-align: center;
     margin-top: 20px;
    padding-bottom: 20px;
+   color: white;
 
 }
 #Four
@@ -49,6 +54,7 @@
     margin-top: 20px;
     padding-bottom: 10px;
     margin-bottom: 100px;
+    color: white;
 }
 .introText{
 
@@ -66,10 +72,27 @@ span{
 
 .img-fluid
 {
-    width: 75%;
+    
 }
 
+.glow {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
 
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
 @media (min-width: 544px) {
     h1 {font-size:1.5rem;} /*1rem = 16px*/
     span{font-size:10px;}
@@ -107,9 +130,10 @@ span{
     justify-content: space-between;
     margin-bottom: 5px;
 
+
 }
 .skilltext {
-    color: black;
+    color: white;
     font-weight: bold;
 }
 .progress {
@@ -142,4 +166,15 @@ span{
 a:hover {
     background-color: darkgoldenrod;
     color: black;
+}
+#popup
+{
+    margin-top: 30px;
+
+    position:fixed;
+
+    left:0px;
+    top:50%;
+
+
 }
