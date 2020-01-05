@@ -76,7 +76,7 @@ span{
 }
 
 .glow {
-  font-size: 30px;
+  font-size: 20px;
   color: #fff;
   text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
