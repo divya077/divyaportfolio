@@ -100,21 +100,35 @@ h1
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
 }
+
 @media (min-width: 544px) {
-    h1 {font-size:1.5rem;} /*1rem = 16px*/
+    h1 {font-size:1.5rem;} 1rem = 16px
     span{font-size:10px;}
+     #buttonlayout
+   {
+    display: flex;
+    flex-flow:row;
+   
+
+   }
+   
+  
 }
+
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
-    h1 {font-size:2em;} /*1rem = 16px*/
+    h1,h3{font-size:14px;} /*1rem = 16px*/
+
     span{font-size:20px;}
+    
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     h1 {font-size:2.5em;} /*1rem = 16px*/
     span{font-size:30px;}
+    
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -184,4 +198,12 @@ a:hover {
     top:50%;
 
 
+}
+#descLayout
+{
+  min-width: 400px;
+  text-align: center;
+  margin:auto;
+  background:darkgoldenrod
+  
 }
